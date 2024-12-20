@@ -18,6 +18,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+      "globals": {
+        "ml5": "readonly"
+      },    
     "extends": [
       "react-app",
       "react-app/jest"
