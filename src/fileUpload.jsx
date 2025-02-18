@@ -70,7 +70,7 @@ function FileUpload() {
     formData.append("file", file);
 
     try {
-      const response = await axios.post("http://localhost:5000/process", formData, {
+      const response = await axios.post("https://prostate-cancer-backend-model-1.onrender.com/process", formData, {
         responseType: "blob",
       });
 
